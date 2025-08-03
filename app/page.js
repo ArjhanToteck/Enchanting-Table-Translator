@@ -5,7 +5,7 @@ import { useState } from "react";
 const englishKey = "abcdefghijklmnopqrstuvwxyz";
 const enchantingTableKey = ["ᔑ", "ʖ", "ᓵ", "↸", "ᒷ", "⎓", "⊣", "⍑", "╎", "⋮", "ꖌ", "ꖎ", "ᒲ", "リ", "𝙹", "!¡", "ᑑ", "∷", "ᓭ", "ℸ ̣ ", "⚍", "⍊", "∴", " ̇/", "||", "⨅"];
 
-export default function page() {
+export default function Page() {
 	const [english, setEnglish] = useState("");
 	const [enchantingTable, setEnchantingTable] = useState("");
 
